@@ -1,0 +1,84 @@
+.template2 {
+  font-family: 'Arial', sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.resume-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  grid-column: 1 / -1;
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.resume-body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.left-column {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-column {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #343a40;
+}
+
+.section p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.btn-add-section, .btn-download-pdf {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-add-section:hover, .btn-download-pdf:hover {
+  background-color: #495057;
+}

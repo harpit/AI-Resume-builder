@@ -1,0 +1,54 @@
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .resume-header {
+    text-align: center;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  .full-name {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .job-title {
+    font-size: 24px;
+    color: #555;
+  }
+  
+  .email {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .resume-section {
+    margin-top: 20px;
+  }
+  
+  .resume-section h3 {
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .resume-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resume-section ul li {
+    padding: 5px 0;
+    font-size: 16px;
+  }
+  
+  .resume-section ul li::before {
+    content: "•";
+    color: #007bff;
+    margin-right: 10px;
+  }
+  

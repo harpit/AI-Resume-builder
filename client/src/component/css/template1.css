@@ -1,0 +1,92 @@
+/* Styling for the overall container */
+.resume-container {
+  background-color: transparent;
+  padding: 20px;
+  color: #333;
+}
+
+.header-section {
+  text-align: center;
+  border-bottom: 2px solid #4a90e2;
+  margin-bottom: 20px;
+}
+
+.header-name {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.header-job-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #34495e;
+}
+
+.header-contact-info p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7f8c8d;
+}
+
+.sections-wrapper {
+  margin-top: 30px;
+}
+
+.draggable-section {
+  background-color: transparent;
+  padding: -20px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: -20px;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-size: 32px; /* Increase the font size */
+  font-weight: bold;
+  color: #ffffff; /* Change the text color to white */
+  background-color: #2980b9; /* Add a background color */
+  padding: 10px; /* Add padding for spacing */
+  border-radius: 5px; /* Add rounded corners */
+  margin-bottom: 15px; /* Increase bottom margin */
+  text-align: center; /* Center the title */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.section-subtitle {
+  font-size: 24px; /* Increase the font size */
+  font-weight: 600;
+  color: #2980b9; /* Adjust the color for better contrast */
+  border-left: 4px solid #2980b9; /* Add a left border */
+  padding-left: 10px; /* Add padding for spacing */
+  margin-bottom: 8px;
+}
+
+
+.section-content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Bold text for emphasizing */
+.bold-text {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Custom bullets for lists */
+.styled-bullet {
+  font-size: 14px;
+  margin-left: 20px;
+  color: #7f8c8d;
+}
+
+/* Buttons */
+.btn-export-pdf, .btn-score-resume {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
